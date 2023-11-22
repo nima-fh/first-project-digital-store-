@@ -1,2 +1,10 @@
 .master {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+}
+.result {
+}
+.summary {
 }
