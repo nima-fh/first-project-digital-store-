@@ -4,87 +4,143 @@
   font-display: swap;
   src: url(../first-project/HankenGrotesk-VariableFont_wght.ttf);
 }
-:root {
-  --clr-primary-hsl-400: 252, 100%, 67%;
-  --clr-primary-hsl-500: 256, 72%, 46%;
-  --clr-secondary-hsl-400: 241, 81%, 54%;
-  --clr-secondary-hsl-500: 241, 72%, 46%;
-
-  --clr-neutral-hsl-100: 0, 0%, 100%;
-  --clr-neutral-hsl-200: 221, 100%, 96%;
-  --clr-neutral-hsl-300: 241, 100%, 89%;
-  --clr-neutral-hsl-700: 224, 30%, 27%;
-
-  --clr-neutral-100: hsl(var(--clr-neutral-hsl-100));
-  --clr-neutral-200: hsl(var(--clr-neutral-hsl-200));
-  --clr-neutral-300: hsl(var(--clr-neutral-hsl-300));
-  --clr-neutral-700: hsl(var(--clr-neutral-hsl-700));
-
-  --clr-primary-400: hsl(var(--clr-primary-hsl-400));
-  --clr-primary-500: hsla(var(--clr-primary-hsl-500));
-  --clr-secondary-400: hsl(var(--clr-secondary-hsl-400));
-
-  --gradient-primary: linear-gradient(
-    var(--clr-primary-400),
-    var(--clr-secondary-400)
-  );
-
-  --gradient-to-transparent: linear-gradient(
-    var(--clr-primary-500),
-    hsl(var(--clr-secondary-hsl-500), 0)
-  );
-
-  --clr-accent-1: 0, 100%, 67%;
-  --clr-accent-2: 39, 100%, 56%;
-  --clr-accent-3: 166, 100%, 37%;
-  --clr-accent-4: 234, 85%, 45%;
-
-  --font-family-default: "hanken", sans-serif;
-
-  --fw-regular: 500;
-  --fw-bold: 700;
-  --fw-black: 800;
-
-  --fs-400: 1.125rem;
-  --fs-500: 1.25rem;
-  --fs-600: 1.5rem;
-  --fs-700: 1.75rem;
-  --fs-800: 2rem;
-  --fs-900: 5rem;
-}
-*::after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-  font: inherit;
-}
 body {
-  font-family: var(--font-family-default);
-  font-size: var(--fs-400);
-  color: var(--clr-neutral-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: hanken;
+  box-shadow: 1px 0px 20px 2px rgb(0, 0, 0, 0.4);
 }
 .master {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  border-radius: 20px;
 }
 .result {
+  color: white;
+  border-radius: 20px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 50%;
+  padding: 20px;
 }
 .result-title {
+  text-align: center;
+  opacity: 0.7;
+}
+.great {
+  text-align: center;
 }
 .score {
+  padding: 50px;
+  width: 74px;
+  height: 74px;
+  border-radius: 100%;
+  box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
-.result-rank {
+.big-score {
+  font-weight: bold;
+  font-size: 60px;
 }
 .summary {
+  width: 50%;
+  padding: 20px;
 }
 .summary-title {
 }
-.Reaction {
+.scores-icon {
+  display: flex;
 }
-.Memory {
+.score-Reaction {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 100%, 67%, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  color: hsl(0, 100%, 67%);
 }
-.Verbal {
+.score-Memory {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(39, 100%, 56%, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  color: hsl(39, 100%, 56%);
 }
-.Visual {
+.score-Verbal {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(166, 100%, 37%, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  color: hsl(166, 100%, 37%);
 }
-.botton {
+.score-Visual {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(234, 85%, 45%, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  color: hsl(234, 85%, 45%);
+}
+.grey {
+  color: rgba(87, 87, 87, 0.992);
+}
+.scores-icon img {
+  margin-right: 5px;
+}
+.blacktext {
+  font-weight: bold;
+  color: black;
+}
+.text {
+  opacity: 0.7;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border: none !important;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  outline: none;
+  width: 100%;
+}
+.button:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+@media (max-width: 760px) {
+  .result {
+    width: 100%;
+    border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px;
+  }
+  .summary {
+    width: 80%;
+    padding: 0px;
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  .master {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0px;
+    overflow: hidden;
+    padding: 0px;
+  }
 }
