@@ -1,0 +1,15 @@
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\bin\Debug\net8.0\ConsoleApp.dll
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\bin\Debug\net8.0\ConsoleApp.pdb
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
+c:\Users\acer\Documents\GitHub\first-project\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll

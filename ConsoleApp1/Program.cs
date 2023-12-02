@@ -28,6 +28,7 @@ else if (miangin>=12 && miangin<18)
  {Console.WriteLine("khoob bodi");}
 else 
 {Console.WriteLine("niaz be talash");}
+
     
 
 
