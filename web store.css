@@ -1,0 +1,37 @@
+@font-face {
+  font-family: iran;
+  src: url(./fonts/iran.ttf);
+}
+* {
+  direction: rtl;
+  font-family: iran;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: black !important;
+  cursor: pointer;
+}
+nav {
+  border-top: 2px solid rgb(168, 167, 167);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1em;
+}
+.nav-right > span {
+  margin: 15px;
+  font-size: 1.1em;
+}
+.login {
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+.login a i {
+  margin: 0px 5px;
+}
