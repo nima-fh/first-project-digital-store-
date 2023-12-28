@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>digi store</title>
     <link rel="stylesheet" href="web store.css" type="text/css" />
+    <link rel="stylesheet" href="animate.css" type="text/css" />
     <script
       src="https://kit.fontawesome.com/f205123584.js"
       crossorigin="anonymous"
@@ -12,6 +13,7 @@
   </head>
   <body>
     <header class="header">
+      <!-- navbar-->
       <nav>
         <div class="nav-right">
           <span>
@@ -39,7 +41,26 @@
           </div>
         </div>
       </nav>
-      <section class="slider"></section>
+      <!-- slider-->
+      <section class="slider">
+        <div class="slides">
+          <div class="item" id="slide1">
+            <img src="image/s3 photoshop version.jpg" />
+          </div>
+          <div class="item" id="slide2">
+            <img src="image/s2 photoshp version.jpg" />
+          </div>
+          <div class="item active" id="slide3">
+            <img src="image/s1 photoshop version.jpg" />
+          </div>
+        </div>
+        <div class="button">
+          <i onclick="setSlide('slide1' , 1)" class="fa-solid fa-circle"></i>
+          <i onclick="setSlide('slide2' , 2)" class="fa-solid fa-circle"></i>
+          <i onclick="setSlide('slide3' , 3)" class="fa-solid fa-circle"></i>
+        </div>
+      </section>
     </header>
+    <script src="./web store.js"></script>
   </body>
 </html>
