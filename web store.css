@@ -149,3 +149,81 @@ nav {
   color: white;
   font-size: 1.3em;
 }
+/*super offer*/
+
+.superoffer-sec {
+  padding: 20px;
+}
+.superoffer-box {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  border-radius: 15px;
+  margin: 0px 15px;
+}
+.title2 {
+  background-color: red;
+  color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 8px 30px;
+  display: inline-block;
+}
+.body {
+}
+.image-container {
+  text-align: center;
+  padding: 30px;
+}
+.image-container img {
+  width: 100%;
+}
+.superoffer-text {
+  padding: 30px 5px;
+}
+.price-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pre-price {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 20px;
+}
+.new-price {
+  font-size: 1.2em;
+  margin: 0px 20px;
+  font-weight: bold;
+}
+.off {
+  margin-right: 10px;
+  background-color: red;
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+}
+.title3 {
+  margin: 50px 0px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #444;
+}
+.counter-down {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 15px 40px;
+  padding-top: 25px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #666;
+}
+.time-text {
+  color: #777;
+  font-size: 0.9em;
+}
+.banner {
+  text-align: center;
+  height: 100%;
+}
+.banner img {
+  border-radius: 15px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0);
+}
