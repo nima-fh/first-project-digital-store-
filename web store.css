@@ -42,8 +42,6 @@ nav {
 .slider {
   position: relative;
 }
-.slides {
-}
 .item {
   display: none;
 }
@@ -168,8 +166,6 @@ nav {
   padding: 8px 30px;
   display: inline-block;
 }
-.body {
-}
 .image-container {
   text-align: center;
   padding: 30px;
@@ -226,4 +222,45 @@ nav {
 .banner img {
   border-radius: 15px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0);
+}
+/*footer*/
+.footer {
+  background-color: #636e72;
+}
+.right2 {
+  padding: 40px;
+}
+.title4 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+}
+.dec {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 2em;
+}
+.left2 {
+  padding: 40px;
+}
+.title5 {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: white;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 25px;
+}
+.social a i {
+  color: white;
+}
+.copy {
+  background-color: #2d3436;
+  text-align: center;
+  color: white;
+  padding: 4px;
 }
